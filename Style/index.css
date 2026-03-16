@@ -40,3 +40,27 @@ body{
 .border-img{
     border-radius: 10px;
 }
+
+.ps5-img{
+    width: 100%;
+    height: auto;
+}
+
+.ps5-button{
+    border-radius: 20px;
+    border: none;
+}
+
+.liena-select{
+    border-bottom: 2px solid #0070D1;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.it-takes-two-background{
+    height: 500px;
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
