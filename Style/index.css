@@ -79,3 +79,13 @@ body{
     height: auto;
     margin: 20px 0;
 }
+
+.background-ps-now{
+    background-color: #161C3B;
+}
+
+.button-ps-now{
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}
