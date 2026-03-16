@@ -10,3 +10,22 @@ body{
     font-size: 2rem;
     color: #0070D1;
 }
+
+.returnal-background{
+    height:470px;
+    background-image:url(../img/jumbo-bg.png);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.img-overlay {
+  width: 240px;
+  height: auto; 
+}
+
+.btn-acquista{
+    background-color: #CD3D0F;
+    border-radius: 20px;
+    width: 100px;
+}
