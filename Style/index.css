@@ -1,0 +1,12 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.dimensione-navbar{
+    height: 70px;
+}
+
+.logo-navbar{
+    font-size: 2rem;
+    color: #0070D1;
+}
