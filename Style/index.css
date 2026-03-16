@@ -124,3 +124,10 @@ body{
     width: 60%;
     height: auto;
 }
+
+@media (min-width: 768px) {
+  .img-overlay {
+    width: 350px;
+    height: auto;
+  }
+}
