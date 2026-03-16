@@ -114,3 +114,8 @@ body{
     z-index: 1060;  
     background: white  
 }
+
+.img-ps-plus{
+    width: 60%;
+    height: auto;
+}
