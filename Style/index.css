@@ -105,3 +105,12 @@ body{
     font-size: 5rem;
     
 }
+
+.humburger-size{
+    font-size: 0.9rem;
+}
+
+.navbar-collapse {
+    z-index: 1060;  
+    background: white  
+}
