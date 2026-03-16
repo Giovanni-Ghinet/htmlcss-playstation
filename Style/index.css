@@ -65,3 +65,11 @@ body{
     position:relative;
 }
 
+.background-ps-plus{
+    background-color: #BEBCBB;
+}
+
+.button-ps-plus{
+    border-radius: 25px;
+    color: #0070D1;
+}
