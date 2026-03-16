@@ -95,3 +95,13 @@ body{
     height: auto;
     margin: 20px 0;
 }
+
+.background-footer{
+    background-color: #00439C;
+}
+
+.logo-ps-footer{
+    color: white;
+    font-size: 5rem;
+    
+}
