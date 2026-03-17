@@ -147,3 +147,9 @@ body{
     height: auto;
   }
 }
+
+@media (min-width: 992px) {
+  .social-box-img {
+    width: 15%;
+  }
+}
