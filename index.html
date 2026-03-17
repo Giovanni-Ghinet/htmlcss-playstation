@@ -30,25 +30,156 @@
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg dimensione-navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <i class="bi bi-playstation logo-navbar"></i></a>
+        <div class="container-fluid mx-2">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-playstation logo-navbar"></i>
+            </a>
             <button class="navbar-toggler humburger-size" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-                <div class="navbar-nav">
-                    <a class="nav-link active " aria-current="page" href="./index.html">Giochi</a>
-                    <a class="nav-link " href="# ">Hardware</a>
-                    <a class="nav-link " href="#">Servizi</a>
-                    <a class="nav-link " aria-disabled="true">Novità</a>
-                    <a class="nav-link " aria-disabled="true">Fai acquisti</a>
-                    <a class="nav-link " aria-disabled="true">Supporto</a>
+                <ul class="navbar-nav me-auto col-lg-8">
+
+                    <!-- Giochi Dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="./index.html"
+                            id="giochiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="giochiDropdown">
+                            <li><a class="dropdown-item" href="#">Action RPG</a></li>
+                            <li><a class="dropdown-item" href="#">FPS</a></li>
+                            <li><a class="dropdown-item" href="#">MMO</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./index.html">Tutti i Giochi</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Hardware Dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="hardwareDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="hardwareDropdown">
+                            <li><a class="dropdown-item" href="#">PS5</a></li>
+                            <li><a class="dropdown-item" href="#">PS5 Pro</a></li>
+                            <li><a class="dropdown-item" href="#">Controller</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Accessori</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Servizi Dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="serviziDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="serviziDropdown">
+                            <li><a class="dropdown-item" href="#">PlayStation Plus</a></li>
+                            <li><a class="dropdown-item" href="#">PlayStation Now</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Account</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Novità Dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="novitaDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="novitaDropdown">
+                            <li><a class="dropdown-item" href="#">Uscite recenti</a></li>
+                            <li><a class="dropdown-item" href="#">Prossime uscite</a></li>
+                            <li><a class="dropdown-item" href="#">Aggiornamenti</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Acquisti Dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="acquistiDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="acquistiDropdown">
+                            <li><a class="dropdown-item" href="#">Store PS5</a></li>
+                            <li><a class="dropdown-item" href="#">Offerte</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Carrello</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Supporto Dropdown -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="supportoDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="supportoDropdown">
+
+                            <li><a class="dropdown-item" href="#">Assistenza tecnica</a></li>
+                            <li><a class="dropdown-item" href="#">Chat</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- PlayStation Dropdown -->
+
+                <div class="row col-lg-4  align-items-center justify-content-end">
+
+                    <div class="nav-item dropdown col-6">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="PlayStationDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My PlayStation
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="PlayStationDropdown">
+
+                            <li><a class="dropdown-item" href="#">Assistenza tecnica</a></li>
+                            <li><a class="dropdown-item" href="#">Chat</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="col-4 ">
+
+                    <button class="text-light bg-dark button-accedi ">Accedi</button>
+
+                    </div>
+
+                    <div class="col-2 ">
+
+                    <a href="#"><i class="bi bi-search icon-search"></i></a>
+
+                    </div>
+
                 </div>
-
             </div>
         </div>
     </nav>
@@ -422,7 +553,7 @@
                     <button class="ps5-button font-size-07 padding-scopri-di-più fw-500 bg-primary text-white">Scopri di
                         più</button>
                 </div>
-            </div>    
+            </div>
         </div>
     </section>
 
@@ -441,15 +572,16 @@
                         giochi mensili, sconti esclusivi e altro ancora.
                     </p>
 
-                    <a href="#"
-                        class="button-ps-plus text-decoration-none bg-secondary-subtle btn fw-bold ">Esplora
+                    <a href="#" class="button-ps-plus text-decoration-none bg-secondary-subtle btn fw-bold ">Esplora
                         PlayStation Plus</a>
 
                 </div>
 
                 <div class="col-md-6">
 
-                    <img class="ps5-img d-none d-md-block" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="banner che rappresenta 3 giochi ps plus">
+                    <img class="ps5-img d-none d-md-block"
+                        src="./img/ps-plus-april-monthly-games-featured-image-block.png"
+                        alt="banner che rappresenta 3 giochi ps plus">
                 </div>
             </div>
         </div>
@@ -517,7 +649,8 @@
 
                 <div class="col-md-6">
 
-                    <img class="ps5-img d-none d-md-block" src="./img/ps-now-april-featured-image-block.png" alt="banner che rappresenta 3 giochi ps plus">
+                    <img class="ps5-img d-none d-md-block" src="./img/ps-now-april-featured-image-block.png"
+                        alt="banner che rappresenta 3 giochi ps plus">
                 </div>
 
             </div>
@@ -571,7 +704,7 @@
 
         <div class="container ">
             <div class="row">
-                
+
                 <div class="pt-5">
 
                     <i class="bi bi-playstation logo-ps-footer"></i>
@@ -603,7 +736,7 @@
                             <a class="text-decoration-none text-white f-size-09 py-1" href="#">Link footer n</a>
                             <a class="text-decoration-none text-white f-size-09 py-1" href="#">Link footer n</a>
                             <a class="text-decoration-none text-white f-size-09 py-1" href="#">Link footer n</a>
-                            
+
 
                         </div>
 

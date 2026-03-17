@@ -131,3 +131,12 @@ body{
     height: auto;
   }
 }
+
+.button-accedi{
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.icon-search{
+    color: black;
+}
