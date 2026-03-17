@@ -269,7 +269,13 @@
 
     <!-- SECTION PS5 -->
 
-    <section class="ps5-section px-2">
+    <input type="radio" name="product" id="ps5-radio" class="d-none" checked>
+    <input type="radio" name="product" id="joypad-radio" class="d-none">
+    <input type="radio" name="product" id="headset-radio" class="d-none">
+    <input type="radio" name="product" id="remote-radio" class="d-none">
+    <input type="radio" name="product" id="camera-radio" class="d-none">
+
+    <section class="ps5-section px-2" id="ps5-section">
         <div class="ps5-content text-center">
 
             <p class="font-size-07 azurro fw-bold mb-0">PLAY HAS NO LIMITS</p>
@@ -278,11 +284,11 @@
 
         </div>
 
-        <div class="container-fluid px-5">
+        <div class="container-fluid px-5" >
 
-            <div class="row justify-content-between align-items-center">
+            <div class="row  align-items-center py-5">
 
-                <div class="col-md-4 pt-5 col-lg-6">
+                <div class="col-md-6 pt-5 col-lg-4">
                     <h2>Console PlayStation 5</h2>
                     <p class="py-3">Sperimenta la nuova generazione di incredibili glochi PlayStation</p>
                     <button class="ps5-button font-size-07 px-3 py-2 fw-500 bg-primary text-white">Maggiori
@@ -290,10 +296,17 @@
                 </div>
 
 
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-8">
 
-                    <img class="ps5-img" src="./img/playstation-5-thumb.png"
-                        alt="playstation 5 coricata con un controller davanti">
+                    <div class="hero-image py-5">
+                        
+                        <img class="ps5-img" src="./img/playstation-5-thumb.png" alt="Console PS5">
+                        <img class="ps5-img" src="./img/joypad-thumb.png" alt="DualSense Controller">
+                        <img class="ps5-img" src="./img/headset-thumb.png" alt="PULSE 3D Headset">
+                        <img class="ps5-img" src="./img/remote-thumb.png" alt="Media Remote">
+                        <img class="ps5-img" src="./img/camera-thumb.jpg" alt="HD Camera">
+
+                    </div>
 
                 </div>
             </div>
@@ -304,28 +317,53 @@
             <div class="row">
 
                 <div class="col-md col-4 mb-5 liena-select">
+
+                    <label for="ps5-radio" class="product-label">
+
                     <img class=" ps5-img" src="./img/playstation-5-thumb.png" alt="console ps5">
                     <p class="d-none d-md-block mt-2 text-center">Console PS5</p>
+
+                    </label>
                 </div>
 
                 <div class="col-md col-4 mb-4 hover-linea">
+
+                    <label for="joypad-radio" class="product-label">
+
                     <img class="ps5-img opacity" src="./img/joypad-thumb.png" alt="controller ps5">
                     <p class="d-none d-md-block mt-2 text-center ">Controller wireless DualSense&#8482;</p>
+
+                    </label>
                 </div>
 
                 <div class="col-md col-4 mb-4 hover-linea">
+
+                    <label for="headset-radio" class="product-label">
+
                     <img class="ps5-img opacity" src="./img/headset-thumb.png" alt="cuffie wireless">
                     <p class="d-none d-md-block mt-2 text-center">Cuffie wireless con microfono PULSE 3&#8482;</p>
+
+                    </label>
                 </div>
 
                 <div class="col-md col-4 mb-4 hover-linea">
+
+                    <label for="remote-radio" class="product-label">
+
                     <img class="ps5-img opacity" src="./img/remote-thumb.png" alt="telecomando">
                     <p class="d-none d-md-block mt-2 text-center">Telecomando Media</p>
+
+                    </label>
                 </div>
 
                 <div class="col-md col-4 mb-4 hover-linea">
+
+                    <label for="camera-radio" class="product-label">
+
                     <img class="ps5-img opacity" src="./img/camera-thumb.jpg" alt="telecamera">
                     <p class="d-none d-md-block mt-2 text-center">Telecamera HD</p>
+
+                    </label>
                 </div>
 
             </div>
