@@ -140,3 +140,10 @@ body{
 .icon-search{
     color: black;
 }
+
+@media (min-width: 992px) {
+  .img-overlay {
+    width: 240px;
+    height: auto;
+  }
+}
