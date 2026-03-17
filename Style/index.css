@@ -160,7 +160,30 @@ body{
 }
 
 .img-hover:hover {
-    transform: translateY(-10px);  
+    transform: translateY(-20px);  
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);  
 }
+
+.opacity {
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+
+.hover-linea:hover p {
+    opacity: 1;
+    border-bottom: 2px solid #0070D1;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.hover-linea:hover .ps5-img {
+    opacity: 1;
+}
+
+
+
+
+
+
 
